@@ -1,7 +1,8 @@
 import { Router } from 'express';
-import { logIn } from '../controllers/auth';
+import { authFacebook, logIn } from '../controllers/auth';
 const router = Router();
 
 router.post('/', logIn);
+router.post('/facebook', authFacebook);
 
 export default router;

@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { findPasswordByUserName } from '../model/user';
+import { findPasswordByEmail } from '../model/vendor';
 import httpError from './httpError';
 
 export const hashPassword = async (password: string) => {
@@ -13,13 +13,13 @@ export const hashPassword = async (password: string) => {
   }
 };
 
-export const checkPassword = async (userName: string, password: string) => {
+export const checkPassword = async (email: string, password: string) => {
   let hashedPassword = null;
   let isValidPassword = false;
 
   // get hashed password
   try {
-    hashedPassword = await findPasswordByUserName(userName);
+    hashedPassword = await findPasswordByEmail(email);
   } catch (error) {
     throw error;
   }
@@ -37,10 +37,10 @@ export const checkPassword = async (userName: string, password: string) => {
   return isValidPassword;
 };
 
-export const createAccessToken = (id: string) => {
+export const createAccessToken = (id: string, time: number = 120 * 60) => {
   if (!id) return '';
   const accessToken = jwt.sign({ id }, process.env.JWT_KEY!, {
-    expiresIn: 120 * 60, // 120 minutes
+    expiresIn: time,
   });
   return accessToken;
 };

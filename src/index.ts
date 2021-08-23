@@ -4,8 +4,11 @@ import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import { createServer } from 'http';
 import mongoose from 'mongoose';
-import userRoute from './routes/userRoute';
+import vendorRoute from './routes/vendorRoute';
 import authRoute from './routes/authRoute';
+import customerRoute from './routes/customerRoute';
+import publicRoute from './routes/publicRoute';
+import { checkAuth } from './middlewares/checkauth';
 dotenv.config();
 
 const app = express();
@@ -14,7 +17,15 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 app.use(cors());
 
 app.use('/auth', authRoute);
-app.use('/user', userRoute);
+app.use('/vendor', vendorRoute);
+app.use('/customer', customerRoute);
+app.use('/shop', publicRoute);
+app.use(checkAuth);
+app.use('/secret', (req: Request, res: Response, next: NextFunction) => {
+  console.log(req.headers);
+  console.log(req.body);
+  return res.json({ message: 'secret' });
+});
 
 // Add error handler
 app.use((error: any, req: Request, res: Response, next: NextFunction) => {
