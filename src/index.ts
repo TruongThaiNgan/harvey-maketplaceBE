@@ -2,7 +2,6 @@ import * as dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import { createServer } from 'http';
 import mongoose from 'mongoose';
 import vendorRoute from './routes/vendorRoute';
 import authRoute from './routes/authRoute';
@@ -12,10 +11,9 @@ import { checkAuth } from './middlewares/checkauth';
 dotenv.config();
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-app.use(cors({ origin: process.env.URL_CLIENT }));
-
 app.use('/auth', authRoute);
 app.use('/vendor', vendorRoute);
 app.use('/customer', customerRoute);
