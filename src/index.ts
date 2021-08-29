@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-app.use(cors());
+app.use(cors({ origin: process.env.URL_CLIENT }));
 
 app.use('/auth', authRoute);
 app.use('/vendor', vendorRoute);
