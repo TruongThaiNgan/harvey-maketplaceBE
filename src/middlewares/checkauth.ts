@@ -15,7 +15,7 @@ export const checkAuth = (req: Request, res: Response, next: NextFunction) => {
   const accessToken =
     req.body.token || req.query.token || req.headers['x-access-token'] || req.headers.authorization?.split(' ')[1];
   if (!accessToken) {
-    return next(new httpError('Please provide accessToken', 401));
+    return next(new httpError('Invalid Token', 401));
   }
   // Decoded Token
   let decodedToken = null;
