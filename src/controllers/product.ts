@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
+import data from './data';
 
-const productList: [] = require('./data.json');
+const productList = data;
 const latest = [2, 4, 15, 22, 49, 98, 86, 23, 92, 94, 91, 89];
 const like = [110, 81, 58];
 const related = [13, 35, 37, 83, 5];
