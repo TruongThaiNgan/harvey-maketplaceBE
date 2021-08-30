@@ -5,6 +5,11 @@ import { createVendor, findIDByEmail } from '../model/vendor';
 import fetch from 'node-fetch';
 import { checkExistEmail, createLocalCustomer, findOrCreateCustomer } from '../model/customer';
 
+type err = {
+  message: string;
+  code: number;
+};
+
 export const addVendor = async (req: Request, res: Response, next: NextFunction) => {
   const vendorInfo = req.body;
   const { email, firstName, lastName, shopName, shopUrl, phoneNumber, password } = vendorInfo;
@@ -19,7 +24,7 @@ export const addVendor = async (req: Request, res: Response, next: NextFunction)
   try {
     const accessToken = await createVendor(vendorInfo);
     return res.status(200).json({ message: 'signup success', status: 201, accessToken });
-  } catch (error) {
+  } catch (error: any) {
     if (error.message === 'email exist' && error.code === 409)
       return res.status(200).json({ message: 'email has already exists', status: '409' });
     return next(error);
@@ -41,7 +46,7 @@ export const addCustomer = async (req: Request, res: Response, next: NextFunctio
   try {
     const accessToken = await createLocalCustomer(customerInfo);
     return res.status(200).json({ message: 'signup success', status: 201, accessToken });
-  } catch (error) {
+  } catch (error: any) {
     if (error.message === 'email exist' && error.code === 409)
       return res.status(200).json({ message: 'email has already exists', status: '409' });
     return next(error);
