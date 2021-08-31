@@ -1,5 +1,4 @@
 import * as dotenv from 'dotenv';
-import bodyParser from 'body-parser';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
@@ -8,12 +7,50 @@ import authRoute from './routes/authRoute';
 import customerRoute from './routes/customerRoute';
 import publicRoute from './routes/publicRoute';
 import { checkAuth } from './middlewares/checkauth';
+import Stripe from 'stripe';
+const stripe = new Stripe(
+  'sk_test_51JUBi4BehStfnEoed7aq4TazuUSYGiBEEzCo0VxE4jO0kEEBAs5vY5D5PCeaehL616ppcWUeIo3qN9cOIp92uMYt00JCbB6Lcq',
+  {
+    apiVersion: '2020-08-27',
+  },
+);
 dotenv.config();
 
 const app = express();
 app.use(cors({ origin: process.env.URL_CLIENT }));
-app.use(bodyParser.json()); // for parsing application/json
-app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.use(express.json()); // for parsing application/json
+app.post('/payment', async (req: Request, res: Response, next: NextFunction) => {
+  const { id } = req.body;
+  try {
+    const payment = await stripe.paymentIntents.create({
+      amount: 1000,
+      currency: 'USD',
+      description: 'test backend',
+      payment_method: id,
+      confirm: true,
+    });
+
+    if (payment.status === 'succeeded')
+      return res.status(200).json({
+        status: 200,
+        message: 'Payment successful',
+        id: payment.id,
+      });
+
+    if (payment.status === 'requires_action') {
+      return res.status(200).json({
+        status: 200,
+        message: '3D secure required',
+        actionRequired: true,
+        clientSecret: payment.client_secret,
+      });
+    }
+    return res.status(200).json({ status: 400, message: 'payment failed' });
+  } catch (error) {
+    console.log(error);
+    // throw error;
+  }
+});
 app.use('/auth', authRoute);
 app.use('/vendor', vendorRoute);
 app.use('/customer', customerRoute);
