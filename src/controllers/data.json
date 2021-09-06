@@ -5,7 +5,20 @@
     "oldPrice": "$175.00",
     "price": "$149.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/79983-airpods-angle-ipod-touch-tap-macbook_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Automatically on, automatically connected",
+      "Easy setup for all your Apple devices",
+      "Quick access to Siri by saying \"Hey Siri\"",
+      "Double-tap to play or skip forward",
+      "Charges quickly in the case",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 2,
@@ -13,14 +26,38 @@
     "oldPrice": "$899.00",
     "price": "$849.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/06/mcbook-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/06/macbook-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/06/macbook-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Black", "Blue", "Gray"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Asus"
   },
   {
     "id": 3,
     "title": "AA Qled TV 4k",
     "price": "$1,499.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/archidey-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/shivaki-left-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/shivaki-left-799x799-270x270.jpg",
+    "categories": ["TV'i & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 4,
@@ -28,14 +65,42 @@
     "oldPrice": "$1,100.00",
     "price": "$1,059.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xs-gols-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xs-silver-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xs-silver-1-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Apple"
   },
   {
     "id": 5,
     "title": "AAA Smartphone 10 LTE",
     "price": "$899.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ezgif-1-e15eba69f90a-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ezgif-1-930149de5303-995x661-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ezgif-1-930149de5303-995x661-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 6,
@@ -43,7 +108,18 @@
     "price": "$2,299.00",
     "oldPrice": "$2,400.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/LAPTOPMAC-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sdrf-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sdrf-599x599-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Asus"
   },
   {
     "id": 7,
@@ -51,21 +127,56 @@
     "price": "$799.00",
     "oldPrice": "$900.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/HUAWEI-MateBook-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/LAPTOPMAC-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/LAPTOPMAC-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Black", "Blue", "Gray"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 8,
     "title": "AB Protection Plan Pro",
     "price": "$250.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ionic-slate-blue-burnt-orange-tpu-regular-0-ae6581782abecc91f23c5cdcf14198ab-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ionic-blue-gray-silver-gray-tpu-regular-1-9329f99e4083a511768a7bf19a6e7f45-1079x919-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ionic-blue-gray-silver-gray-tpu-regular-1-9329f99e4083a511768a7bf19a6e7f45-1079x919-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "MOBILES & TABLETS", "WATCHES"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 9,
     "title": "AB QLED TV UltraHD",
     "price": "$899.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/qled-red-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/qled-tv-led-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/qled-tv-led-799x799-270x270.jpg",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 10,
@@ -73,84 +184,243 @@
     "oldPrice": "$799.00",
     "price": "$749.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xr-white-select-201809-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xr-red-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-xr-red-1-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 11,
     "title": "AC 13 Inch, Chromebook",
     "price": "$1,600.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/49993-2-dell-laptop-image-free-transparent-image-hq_600x600-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/06/mcbook-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/06/mcbook-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors",
+      "Intel Iris Graphics 6100",
+      "Flash storage",
+      "Up to 10 hours of battery life2",
+      "Force Touch trackpad"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Asus"
   },
   {
     "id": 12,
     "title": "AC Smartphone 8",
     "price": "$599.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-gold-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-silver-3-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-silver-3-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 13,
     "title": "AC Smartphone 8+",
     "price": "$699.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-silver-2-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-8-silver-2-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 14,
     "title": "AC Televisions 49″ QLED 4K",
     "price": "$999.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/gortv-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/qled-799x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/qled-799x599-270x270.jpg",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 15,
     "title": "AD QLed TV UltraHD Curved",
     "price": "$2,199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/flower-curved-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/flower-curved-799x799-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 16,
     "title": "AD Smartphone 7",
     "price": "$500.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-7-silver-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Iphone-7-gold-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Iphone-7-gold-1-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 17,
     "title": "AD Smartphone 7+",
     "price": "$550.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iphone-7-gold-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Iphone-7-silver-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Iphone-7-silver-1-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 18,
     "title": "AE QLED pro TV 8K",
     "price": "$1,999.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/qled-8k-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sony-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sony-799x799-270x270.jpg",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 19,
     "title": "AF Home Theater 86″",
     "price": "$1,499.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uhd-tv-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uhd-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uhd-799x799-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 20,
     "title": "AG Televisions Dark Edition 55″ 4K",
     "price": "$1,799.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uhd-salyud-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/night-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/night-799x799-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 21,
     "title": "AH UHD TV Curved 49″",
     "price": "$1,799.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/premium-tv-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/premiumtv-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/premiumtv-799x799-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 22,
@@ -158,7 +428,18 @@
     "oldPrice": "$174.00",
     "price": "$144.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_equator_rose_gold_closed_loop-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_moonbeam_white_open_clasp-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_moonbeam_white_open_clasp-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "WATCHES"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Plug and Play, Driver free Design",
+      "Supports Hot-swap",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "High Strength ABS Plastic Material"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Samsung"
   },
   {
     "id": 23,
@@ -166,7 +447,17 @@
     "oldPrice": "$399.00",
     "price": "$300.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/white-watch-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_bip_smartwatch_white_cloud_front-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_bip_smartwatch_white_cloud_front-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "WATCHES"],
+    "description": [
+      "SUHD Picture Quality",
+      "1.4 GHz Quad Core™ Processor",
+      "20 MP front Camera",
+      "Supreme UHD Dimming"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Apple"
   },
   {
     "id": 24,
@@ -174,7 +465,20 @@
     "oldPrice": "$299.00",
     "price": "$199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51543-4-multimedia-speaker-png-free-photo_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51634-2-multimedia-speaker-images-png-file-hd_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51634-2-multimedia-speaker-images-png-file-hd_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 25,
@@ -182,7 +486,20 @@
     "oldPrice": "$79.00",
     "price": "$59.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51621-5-multimedia-speaker-png-file-hd_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51527-5-multimedia-speaker-free-hd-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51527-5-multimedia-speaker-free-hd-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Logitech"
   },
   {
     "id": 26,
@@ -190,7 +507,20 @@
     "oldPrice": "$299.00",
     "price": "$199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51527-5-multimedia-speaker-free-hd-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51621-5-multimedia-speaker-png-file-hd_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51621-5-multimedia-speaker-png-file-hd_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Microlab"
   },
   {
     "id": 27,
@@ -198,7 +528,20 @@
     "oldPrice": "$299.00",
     "price": "$199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51503-6-multimedia-speaker-download-image-free-clipart-hd_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51543-4-multimedia-speaker-png-free-photo_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51543-4-multimedia-speaker-png-free-photo_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Logitech"
   },
   {
     "id": 28,
@@ -206,56 +549,152 @@
     "oldPrice": "$99.00",
     "price": "89.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51634-2-multimedia-speaker-images-png-file-hd_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51503-6-multimedia-speaker-download-image-free-clipart-hd_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/51503-6-multimedia-speaker-download-image-free-clipart-hd_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 29,
     "title": "BA EliteBook Revolve 810 G2",
     "price": "$1,300.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/laptopp-acer-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/laptopp-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/laptopp-599x599-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Screen Size: 11.6″",
+      "Processor Type: Core i5 HQ",
+      "Processor Speed: 1.90 GHz",
+      "Standard Memory: 4 GB",
+      "Operating System: Windows 8.1 Pr"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 30,
     "title": "BA Laptop 15.6″ Intel G4556",
     "price": "$599.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/acer-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/acer-front-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/acer-front-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Black", "Blue", "Gray"],
+    "vendor": ["Jonathan"],
+    "brand": "Asus"
   },
   {
     "id": 31,
     "title": "BA Laptop 250 G6",
     "price": "$1,300.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/lenova-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/69140-core-intel-laptop-i5-narendra-computer-modi_800x800-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/69140-core-intel-laptop-i5-narendra-computer-modi_800x800-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Asus"
   },
   {
     "id": 32,
     "title": "BA Laptop air 13 inch",
     "price": "$999.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/laptop-asus-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/laptop-hp215-798x798-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/laptop-hp215-798x798-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 33,
     "title": "BA Laptop Chromebook S330",
     "price": "$780.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/lenovanew2015-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sdrf-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sdrf-599x599-270x270.png",
+    "categories": [" COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Asus"
   },
   {
     "id": 34,
     "title": "BA Tablet Pro",
     "price": "$999.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Ipad-pro-gray-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Ipad-pro-silver-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Ipad-pro-silver-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 35,
     "title": "BB Tablet Air",
     "price": "$899.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-air-gold-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-air-gray-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-air-gray-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 36,
@@ -263,21 +702,62 @@
     "oldPrice": "$499.00",
     "price": "$449.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-gold-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Ipad-silver-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Ipad-silver-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 37,
     "title": "BD Tablet Mini",
     "price": "$799.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-mini-silver-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-mini-gold-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/ipad-mini-gold-599x599-270x270.png",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 38,
     "title": "Black headphone",
     "price": "$49.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/16-black-headphones-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/6-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/6-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Microlab"
   },
   {
     "id": 39,
@@ -285,7 +765,20 @@
     "oldPrice": "$3,499.00",
     "price": "$3,299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png",
+    "categories": ["CAMERAS", "CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 40,
@@ -293,14 +786,40 @@
     "oldPrice": "$2,498.00",
     "price": "$2,450.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sony_vaio_1-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 41,
     "title": "Camera Mony 500D",
     "price": "$600.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-5-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-7-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-7-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 42,
@@ -308,7 +827,20 @@
     "oldPrice": "$1,999.00",
     "price": "$1,799.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-7-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-5-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-5-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 43,
@@ -316,7 +848,20 @@
     "oldPrice": "$1,790.00",
     "price": "$1,750.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-2-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-2-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-2-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 44,
@@ -324,7 +869,20 @@
     "oldPrice": "$3,999.00",
     "price": "$3,499.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-8-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 45,
@@ -332,14 +890,35 @@
     "oldPrice": "$1,399.00",
     "price": "$1,199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/laptop-hp215-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/laptop-asus-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/laptop-asus-599x599-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 46,
     "title": "Console dark edition",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/2-2-xbox-free-download-png_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 47,
@@ -347,14 +926,36 @@
     "oldPrice": "$149.00",
     "price": "$99.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/fitband-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_arc_hero_side_time-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/amazfit_arc_hero_side_time-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "TOOLS & STORAGE", "WATCHES"],
+    "description": [
+      "High-fidelity stereo music and clear speech",
+      "100% Stable and Comfortable when exercising, running and other outdoor sports",
+      "Up to 6 hours music play",
+      "7 hours talking time",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 48,
     "title": "Fitness braclet",
     "price": "$29.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/galaxy-fi-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/frontier-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/frontier-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 49,
@@ -362,35 +963,89 @@
     "oldPrice": "$75.00",
     "price": "$60.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/playstation-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "CONSOLES & GAMES"],
+    "description": [
+      "Wireless",
+      "Motion Sensing",
+      "Compatible with Several Consoles/Games",
+      "Enough Action Buttons",
+      "Ergonomic"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Samsung"
   },
   {
     "id": 50,
     "title": "Game Console Orginy",
     "price": "$299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/7-2-xbox-free-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/2-2-xbox-free-download-png_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/2-2-xbox-free-download-png_600x600-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 51,
     "title": "Game Console Run edition",
     "price": "$299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/82168-roblox-playstation-all-product-accessory-xbox_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/7-2-xbox-free-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/7-2-xbox-free-png-image_600x600-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 52,
     "title": "Game Console SE",
     "price": "$789.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/46814-9-console-download-image-free-download-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 53,
     "title": "Gamming headphone",
     "price": "$149.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/5-blue-headphones-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Microlab"
   },
   {
     "id": 54,
@@ -398,14 +1053,37 @@
     "oldPrice": "$799.00",
     "price": "$749.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/4-2-virtual-reality-picture_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/13013573-499x499-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/13013573-499x499-270x270.png",
+    "categories": ["ACCESSORIES", "CONSOLES & GAMES", "GADGETS"],
+    "description": [
+      "Easy to use touch pad",
+      "Light weight so you can play and watch more comfortably",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Works with Samsung Galaxy Note5, Galaxy S6 edge+, Galaxy S6, Galaxy S6 edge"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 55,
     "title": "Gold HeadPhones",
     "price": "$45.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H6_Natural_1000x1000-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_CharcoalGrey_1000x1000-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_CharcoalGrey_1000x1000-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 56,
@@ -413,7 +1091,20 @@
     "oldPrice": "$99.00",
     "price": "$79.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/5-blue-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/5-blue-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Microlab"
   },
   {
     "id": 57,
@@ -421,7 +1112,20 @@
     "oldPrice": "$49.00",
     "price": "$39.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/6-headphones-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 58,
@@ -429,7 +1133,17 @@
     "oldPrice": "$300.00",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0053_rgb_MP582-RGB-bttm_V22-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0056_rgb_MNET2-RGB-bttm-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0056_rgb_MNET2-RGB-bttm-1-1-799x799-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Dual output USB interfaces",
+      "Compatible with all smartphones",
+      "Portable design and light weight",
+      "Battery type: Lithium-ion"
+    ],
+    "color": ["Blue"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Samsung"
   },
   {
     "id": 59,
@@ -437,7 +1151,20 @@
     "oldPrice": "$219.00",
     "price": "$199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0056_rgb_MNET2-RGB-bttm-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0053_rgb_MP582-RGB-bttm_V2-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0053_rgb_MP582-RGB-bttm_V2-1-1-799x799-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 60,
@@ -445,21 +1172,57 @@
     "oldPrice": "$210.00",
     "price": "$185.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0000_rgb_MP132-RGB-bttm_V2-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0005_MQCY2-RGB-bttm-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0005_MQCY2-RGB-bttm-1-1-799x799-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 61,
     "title": "Headphone super bass",
     "price": "$239.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0005_MQCY2-RGB-bttm-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0000_rgb_MP132-RGB-bttm_V2-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0000_rgb_MP132-RGB-bttm_V2-1-1-799x799-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 62,
     "title": "Joystick for GameConsole FX Rog",
     "price": "$39.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 63,
@@ -467,14 +1230,35 @@
     "oldPrice": "$59.00",
     "price": "$39.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-599x599-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/joystick-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 64,
     "title": "Laptop 14″ Cloudbook EM-1321",
     "price": "$1,200.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/hp-gammingnew-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/hpgammingfrnt-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/hpgammingfrnt-599x599-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 65,
@@ -482,28 +1266,71 @@
     "oldPrice": "$2,399.00",
     "price": "$2,199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/asus-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/asus-frint-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/asus-frint-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Acer"
   },
   {
     "id": 66,
     "title": "ManDisk USB 3.0 Flash 32 GB",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/62-usb-flash-drive-png_800x800-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/62-usb-flash-drive-png_800x800-799x799-270x270.png",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 67,
     "title": "MicroSD 3.0 Flash 32 GB",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-32-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 68,
     "title": "Mini GameConsole SintenSo",
     "price": "$99.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/46824-8-console-hd-free-download-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/4-2-xbox-png-image_600x600-599x599-270x270.png",
+    "categories": ["CONSOLES & GAMES"],
+    "description": [
+      "Play online with your friends, get free games, save games online and more with PlayStation",
+      "Cutting edge graphics bring game worlds to life like never before, and next gen",
+      "Connect with your friends to broadcast and celebrate your epic moments",
+      "Perfect for both new players and players new to PS4"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 69,
@@ -511,7 +1338,20 @@
     "oldPrice": "$400.00",
     "price": "$380.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-3-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 70,
@@ -519,7 +1359,20 @@
     "oldPrice": "$599.00",
     "price": "$549.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 71,
@@ -527,7 +1380,12 @@
     "oldPrice": "$559.00",
     "price": "$550.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/sony_vaio_1-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": ["Ultra Slim & Stylish", "Perfect for Selfies", "Capture & Share on the Go", "Outstanding Optics"],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Samsung"
   },
   {
     "id": 72,
@@ -535,7 +1393,20 @@
     "oldPrice": "$260.00 ",
     "price": "$240.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-4-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-2-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-2-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 73,
@@ -543,14 +1414,38 @@
     "oldPrice": "$59.00",
     "price": "$49.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/7-headphones-png-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 74,
     "title": "Pendrive USB 3.0 Flash 64 GB",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/8-2-usb-flash-png-picture_800x800-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 75,
@@ -558,14 +1453,40 @@
     "oldPrice": "$1,499.00",
     "price": "$1,299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-11-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-8-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-8-999x999-270x270.png",
+    "categories": ["CAMERAS", "CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 76,
     "title": "Photo camera Ranoc D90",
     "price": "$820.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-2-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-2-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-2-999x999-270x270.png",
+    "categories": ["CAMERAS", "CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 77,
@@ -573,7 +1494,20 @@
     "oldPrice": "$999.00",
     "price": "$899.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-10-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-12-999x999-270x270.png",
+    "categories": ["CAMERAS", "CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 78,
@@ -581,7 +1515,20 @@
     "oldPrice": "$2,200.00",
     "price": "$2,000.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-6-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-1-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-1-999x999-270x270.png",
+    "categories": ["CAMERAS", "CAMERAS & PHOTOS"],
+    "description": [
+      "16MP CMOS Sensor; 6-level brightness adjustment",
+      "24-2000mm 35mm Equivalent Focal Length. Sensor Size: 1/2.3 inch",
+      "83x Optical Zoom NIKKOR Super ED VR Lens",
+      "Electronic Viewfinder",
+      "Full HD 1080/60p Video",
+      "Built-In Wi-Fi, NFC, and GP",
+      "166x Dynamic Fine Zoom, 332x Digi Zoom"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 79,
@@ -589,28 +1536,75 @@
     "oldPrice": "$629.00",
     "price": "$619.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-6-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/camera-6-999x999-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Canon"
   },
   {
     "id": 80,
     "title": "SanDrive USB 3.0 Flash 8 GB",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uz-32gb-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-hybrid-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-hybrid-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 81,
     "title": "Smart Camera",
     "price": "$799.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/11-photo-camera-png-image_600x600-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/11-photo-camera-png-image_600x600-1-599x599-270x270.png",
+    "categories": ["CAMERAS & PHOTOS"],
+    "description": [
+      "35X optical zoom",
+      "16.2 megapixels",
+      "3″ diagonal TFT LCD display",
+      "Face detection",
+      "TTL auto focus system with five modes"
+    ],
+    "color": ["Green"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Acer"
   },
   {
     "id": 82,
     "title": "Smartphone 10 light",
     "price": "$219.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honor-20lite-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honor-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honor-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 83,
@@ -618,35 +1612,104 @@
     "oldPrice": "$399.00",
     "price": "$349.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honorr-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mi7-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mi7-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 84,
     "title": "Smartphone mate20",
     "price": "$899.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mate20-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/matex-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/matex-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 85,
     "title": "Smartphone Mix",
     "price": "$499.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mimixc-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mi7-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mi7-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 86,
     "title": "Smartphone Note 7",
     "price": "$199.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/mi7-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honorr-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/honorr-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "64-bit Octa-Core Processor",
+      "20 MP front Camera",
+      "3400 mAh battery",
+      "Triple camera, 12 MP, f/1.5-2.4 + 12 MP, f/2.",
+      "4K UHD video recording at 60 fps",
+      "Gorilla Glass 6",
+      "IP68 dust/water proof (up to 1.5m for 30 mins)"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Xiaomi"
   },
   {
     "id": 87,
     "title": "Smartphone P30s",
     "price": "$700.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/p30-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/p30-violet-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/p30-violet-599x599-270x270.jpg",
+    "categories": ["GADGETS", "MOBILES & TABLETS", "SMARTPHONES"],
+    "description": [
+      "6.1 inches QHD+ Dynamic AMOLED",
+      "Easy setup for all your Apple devices",
+      "Quick access to Siri by saying \"Hey Siri\"",
+      "Double-tap to play or skip forward",
+      "Charges quickly in the case",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Xiaomi"
   },
   {
     "id": 88,
@@ -654,7 +1717,18 @@
     "oldPrice": "$149.00",
     "price": "$129.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/watch-red-2-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/frontred-watch-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/frontred-watch-799x799-270x270.png",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 89,
@@ -662,7 +1736,18 @@
     "oldPrice": "$199.00",
     "price": "$149.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/iwatch-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/frontier-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/frontier-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 90,
@@ -670,7 +1755,18 @@
     "oldPrice": "$299.00",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/amazing-galaxy-watch-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Huawei-watch-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/Huawei-watch-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 91,
@@ -678,7 +1774,18 @@
     "oldPrice": "$215.00",
     "price": "$189.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/SAM-WATCH-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sport-watcxh-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sport-watcxh-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 92,
@@ -686,7 +1793,18 @@
     "oldPrice": "$239.00",
     "price": "$200.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/galaxy-watch-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/galaxy-fi-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/galaxy-fi-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Xiaomi"
   },
   {
     "id": 93,
@@ -694,49 +1812,129 @@
     "oldPrice": "$220.00",
     "price": "$200.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/frontier-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/SAM-WATCH-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/SAM-WATCH-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 94,
     "title": "Smartwatch sport edition",
     "price": "$129.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sport-watcxh-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/amazing-galaxy-watch-799x799-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/amazing-galaxy-watch-799x799-270x270.jpg",
+    "categories": ["GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 95,
     "title": "Smartwatch Waterproof",
     "price": "$725.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/blakc-watch-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/amazfit_bip_smartwatch_onyx_black_front-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/amazfit_bip_smartwatch_onyx_black_front-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "WATCHES"],
+    "description": [
+      "Water protected, dust and scratch-resistant",
+      "Easy calling",
+      "One-touch SmartWatch",
+      "New software update",
+      "Anywhere. Any weather"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Acer"
   },
   {
     "id": 96,
     "title": "Televisions Home Theater 65″ QLED",
     "price": "$1,299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/qled-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/75376-television-set-tv-screen-liquid-crystal-lcd-led-backlit_600x600-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/75376-television-set-tv-screen-liquid-crystal-lcd-led-backlit_600x600-1-599x599-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 97,
     "title": "Ultra Plus 128GB 3.0",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-ps-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-32-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-32-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 98,
     "title": "White Solo 2 Wireless",
     "price": "$129.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_CharcoalGrey_1000x1000-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_1000x1000_vapour-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_1000x1000_vapour-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pair and Play with your Bluetooth® device with 30′ range",
+      "12 hour rechargeable battery with Fuel Gauge",
+      "Take hands-free calls with built-in mic*",
+      "Fine-tuned acoustics for clarity, breadth and balance"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["StylemixThemes Store"],
+    "brand": "Sony"
   },
   {
     "id": 99,
     "title": "White Solo 5 Wireless",
     "price": "$129.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H4_1000x1000_vapour-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H6_Natural_1000x1000-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/H6_Natural_1000x1000-999x999-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 100,
@@ -744,7 +1942,20 @@
     "oldPrice": "$399.00",
     "price": "$299.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/51969-2-led-television-images-png-download-free_600x600-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/75376-television-set-tv-screen-liquid-crystal-lcd-led-backlit_600x600-1-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/75376-television-set-tv-screen-liquid-crystal-lcd-led-backlit_600x600-1-599x599-270x270.png",
+    "categories": ["TV'S & AUDIO"],
+    "description": [
+      "SUHD Picture Quality",
+      "Immersive Curved Design",
+      "New generation Smart TV",
+      "4X HDMI With MHL",
+      "Clear QAM Tuner",
+      "High Contrast 5,000:1",
+      "3D Ready"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Samsung"
   },
   {
     "id": 101,
@@ -752,7 +1963,20 @@
     "oldPrice": "$299.00",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/A9_white_2500-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/A9_white_1000-999x999-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/A9_white_1000-999x999-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Canon"
   },
   {
     "id": 102,
@@ -760,7 +1984,20 @@
     "oldPrice": "$299.00 ",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/0053_rgb_MP582-RGB-bttm_V2-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/16-black-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/16-black-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 103,
@@ -768,7 +2005,20 @@
     "oldPrice": "$69.00",
     "price": "$49.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1-1-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/27-green-headphones-png-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Pure adaptive noise canceling (pure ANC) actively blocks external noise",
+      "Real-time Audio calibration preserves a Premium listening experience",
+      "Up to 22 hours of battery life enables full-featured all-day wireless playback",
+      "Apple W1 chip for class 1 wireless Bluetooth connectivity & battery efficiency",
+      "With fast Fuel, a 10-minute charge gives 3 hours of play when battery is low. Rechargeable lithium ion battery",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Sony"
   },
   {
     "id": 104,
@@ -776,7 +2026,20 @@
     "oldPrice": "$299.00",
     "price": "$209.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52390-8-red-bluetooth-speaker-image-download-free-image_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52319-4-red-bluetooth-speaker-download-free-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52319-4-red-bluetooth-speaker-download-free-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 105,
@@ -784,7 +2047,20 @@
     "oldPrice": "$299.00",
     "price": "$232.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/50534-5-bluetooth-speaker-image-free-clipart-hq_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52390-8-red-bluetooth-speaker-image-download-free-image_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52390-8-red-bluetooth-speaker-image-download-free-image_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Black", "Blue", "Gray", "Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Microlab"
   },
   {
     "id": 106,
@@ -792,28 +2068,76 @@
     "oldPrice": "$299.00",
     "price": "$249.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/50672-3-black-bluetooth-speaker-image-free-png-hq_600x600-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52309-7-red-bluetooth-speaker-image-png-free-photo_600x600-599x599-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/52309-7-red-bluetooth-speaker-image-png-free-photo_600x600-599x599-270x270.png",
+    "categories": ["ACCESSORIES", "SPEAKERS", "TV'S & AUDIO"],
+    "description": [
+      "360 Omnidirectional Sound",
+      "Easy Intuitive Control",
+      "Multiroom App",
+      "Bluetooth Speaker",
+      "Waterproof IP68",
+      "Wireless",
+      "3000mAh"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Beats"
   },
   {
     "id": 107,
     "title": "WW Aqulus USB 3.0 Hybrid",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-hybrid-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uz-32gb-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uz-32gb-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 108,
     "title": "WW Extreme Pro Flash 64 GB",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-32-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/sd-32-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "GADGETS", "HEADPHONE"],
+    "description": [
+      "Automatically on, automatically connected",
+      "Easy setup for all your Apple devices",
+      "Quick access to Siri by saying \"Hey Siri\"",
+      "Double-tap to play or skip forward",
+      "Charges quickly in the case",
+      "Premium sound 3D",
+      "Elegant Design"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Apple"
   },
   {
     "id": 109,
     "title": "WW Flash 16GB USB 3.1",
     "price": "$100.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32gb-270x270.jpg",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uz-32gb-599x599-270x270.jpg"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/uz-32gb-599x599-270x270.jpg",
+    "categories": ["ACCESSORIES", "COMPUTERS", "TOOLS & STORAGE"],
+    "description": [
+      "Spend less time waiting as it transfer large photos, videos and other files up to 10 times faster than USB 2.0",
+      "Super-fast transfer speeds (up to 190MB/sec)",
+      "USB 3.0 enabled",
+      "Password Protect Your Private Files",
+      "Recover Lost or Deleted Photos with RescuePRO Deluxe"
+    ],
+    "color": ["Blue", "Green", "Red"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 110,
@@ -821,34 +2145,89 @@
     "oldPrice": "$145.00",
     "price": "$120.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/01/product-66-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ionic-slate-blue-burnt-orange-tpu-regular-0-ae6581782abecc91f23c5cdcf14198ab-1079x919-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/04/ionic-slate-blue-burnt-orange-tpu-regular-0-ae6581782abecc91f23c5cdcf14198ab-1079x919-270x270.png",
+    "categories": ["ACCESSORIES", "GADGETS", "WATCHES"],
+    "description": [
+      "Accept SIM card and call",
+      "Take photos",
+      "Make calling instead of mobile phone",
+      "Sync music play and sync control music",
+      "Sync Facebook,Twiter,emailand calendar"
+    ],
+    "color": ["Gray"],
+    "vendor": ["Stylemix Themes"],
+    "brand": "Acer"
   },
   {
     "id": 111,
     "title": "ZZ Gamming Desk 16-core",
     "price": "$1,500.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32969-4-gaming-computer-free-download_800x800-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/69137-gaming-personal-laptop-computers-predator-desktop-computer_800x800-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/69137-gaming-personal-laptop-computers-predator-desktop-computer_800x800-1-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Gray"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 112,
     "title": "ZZ Gamming PC FPS edition",
     "price": "$1,499.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32869-6-gaming-computer-picture_800x800-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/33021-6-gaming-computer_800x800-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/33021-6-gaming-computer_800x800-1-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Black", "Blue"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 113,
     "title": "ZZ Gamming PC Full 24inch Monitor",
     "price": "$1,650.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/69137-gaming-personal-laptop-computers-predator-desktop-computer_800x800-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32869-6-gaming-computer-picture_800x800-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32869-6-gaming-computer-picture_800x800-1-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   },
   {
     "id": 114,
     "title": "ZZ Gamming tower special edition",
     "price": "$1,700.00",
     "image1": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/33021-6-gaming-computer_800x800-1-1-270x270.png",
-    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32969-4-gaming-computer-free-download_800x800-1-1-799x799-270x270.png"
+    "image2": "https://elab.stylemixthemes.com/demo-1/wp-content/uploads/sites/2/2019/05/32969-4-gaming-computer-free-download_800x800-1-1-799x799-270x270.png",
+    "categories": ["COMPUTERS"],
+    "description": [
+      "Intel Core i5 processors (13-inch model)",
+      "Intel Iris Graphics 6100 (13-inch model)",
+      "Flash storage",
+      "Up to 10 hours of battery life2 (13-inch model)",
+      "Force Touch trackpad (13-inch model)"
+    ],
+    "color": ["Yellow"],
+    "vendor": ["Jonathan"],
+    "brand": "Acer"
   }
 ]

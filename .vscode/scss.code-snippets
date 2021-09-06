@@ -1,0 +1,42 @@
+{
+  "Row Center": {
+    "prefix": ["rc", "RowCenter"],
+    "body": ["display: flex;", "justify-content: center;", "align-items: center;"],
+    "description": "Row Center"
+  },
+  "Column Center": {
+    "prefix": ["cc", "ColumnCenter"],
+    "body": ["display: flex;", "flex-direction: column;", "justify-content: center;", "align-items: center;"],
+    "description": "Column Center"
+  },
+  "Row Space Between": {
+    "prefix": ["rsb", "RowSpaceBetween"],
+    "body": ["display: flex;", "justify-content: space-between;", "align-items: center;"],
+    "description": "Row Space Between"
+  },
+  "Background Shorthand": {
+    "prefix": ["bg+", "BackgroundShorthand"],
+    "body": ["background: url('$1') center / cover no-repeat;"],
+    "description": "Background Shorthand"
+  },
+  "Background Color Transparent": {
+    "prefix": ["bgct", "BackgroundColorTransparent"],
+    "body": ["background-color:transparent;"],
+    "description": "Background Color Transparent"
+  },
+  "@include": {
+    "prefix": ["ic", "@include"],
+    "body": ["@include $1;"],
+    "description": "@include"
+  },
+  "@include Size": {
+    "prefix": ["ics", "@includeSize"],
+    "body": ["@include size($1, $2);"],
+    "description": "@include Size"
+  },
+  "Center": {
+    "prefix": "ct",
+    "body": ["center"],
+    "description": "Center"
+  }
+}

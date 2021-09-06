@@ -54,3 +54,13 @@ export const getPageAccessories = async (req: Request, res: Response, next: Next
   console.log(list);
   return res.json({ message: 'get success', status: 200, productList: list, numberProduct });
 };
+
+export const getListProduct = async (req: Request, res: Response, next: NextFunction) => {
+  const { list } = req.query;
+  console.log(list);
+  if (!list) return res.json({ message: 'ok', status: 200, productList: [], numberProduct: 0 });
+  const result = (list as string[]).map((id) => {
+    return productList[+id - 1];
+  });
+  return res.json({ message: 'ok', status: 200, productList: result, numberProduct: result.length });
+};

@@ -19,6 +19,7 @@ dotenv.config();
 const app = express();
 app.use(cors({ origin: process.env.URL_CLIENT }));
 app.use(express.json()); // for parsing application/json
+
 app.post('/payment', async (req: Request, res: Response, next: NextFunction) => {
   const { id } = req.body;
   try {
@@ -29,6 +30,7 @@ app.post('/payment', async (req: Request, res: Response, next: NextFunction) => 
       payment_method: id,
       confirm: true,
     });
+    console.log(payment);
 
     if (payment.status === 'succeeded')
       return res.status(200).json({
@@ -41,14 +43,35 @@ app.post('/payment', async (req: Request, res: Response, next: NextFunction) => 
       return res.status(200).json({
         status: 200,
         message: '3D secure required',
+        id: payment.id,
         actionRequired: true,
         clientSecret: payment.client_secret,
       });
     }
     return res.status(200).json({ status: 400, message: 'payment failed' });
-  } catch (error) {
-    console.log(error);
-    // throw error;
+  } catch (error: any) {
+    return res.status(200).json({ status: 400, message: error?.message });
+  }
+});
+app.get('/check/:id', async (req, res) => {
+  try {
+    const id = req.params.id;
+    console.log(id);
+    const paymentIntent = await stripe.paymentIntents.retrieve(id);
+    if (paymentIntent?.status === 'succeeded') {
+      return res.json({
+        status: 200,
+        message: 'Payment successful!',
+        id,
+      });
+    }
+    res.status(400).json({
+      status: 200,
+      message: 'Payment failed! Please try again later.',
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ status: 500, message: 'Internal server error' });
   }
 });
 app.use('/auth', authRoute);
@@ -57,8 +80,6 @@ app.use('/customer', customerRoute);
 app.use('/shop', publicRoute);
 app.use(checkAuth);
 app.use('/secret', (req: Request, res: Response, next: NextFunction) => {
-  console.log(req.headers);
-  console.log(req.body);
   return res.json({ message: 'secret' });
 });
 
