@@ -32,6 +32,7 @@
     "description": "CSS grey"
   },
   // React
+
   //hook
   "Use State": {
     "prefix": ["us", "UseState"],
@@ -43,6 +44,12 @@
     "prefix": ["ut", "UseTranslation"],
     "scope": "typescriptreact",
     "body": ["const [t] = useTranslation();"],
+    "description": "Use Translation"
+  },
+  "Use Effect": {
+    "prefix": ["ue", "UseEffect"],
+    "scope": "typescriptreact",
+    "body": ["useEffect(() => {", "\t$1", "},[$2])"],
     "description": "Use Translation"
   },
   // import and export
@@ -64,5 +71,11 @@
     "scope": "typescriptreact",
     "body": ["// Hook states", "", "// Hook effects", "", "// Constants", "", "// Action handlers", "", "// Renderers"],
     "description": "Comment Structure Component"
+  },
+  "Get Query": {
+    "prefix": ["gq", "getQuery"],
+    "scope": "typescriptreact",
+    "body": ["const location = useLocation();", "const queries = queryString.parse(location.search);"],
+    "description": "Get Query"
   }
 }

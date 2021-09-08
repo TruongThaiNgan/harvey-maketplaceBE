@@ -1,6 +1,6 @@
 import { LeanDocument, model, Schema, Document } from 'mongoose';
 import httpError from '../utils/httpError';
-import { createAccessToken, hashPassword } from '../utils/utlis';
+import { createAccessToken, hashPassword } from '../utils/utils';
 import { checkEmailVendorExist } from './vendor';
 
 interface CustomerLocalDocument extends Document {

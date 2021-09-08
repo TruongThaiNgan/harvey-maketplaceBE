@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import { NextFunction, Request, Response } from 'express';
-import { checkPassword, createAccessToken } from '../utils/utlis';
+import { checkPassword, createAccessToken } from '../utils/utils';
 import { createVendor, findIDByEmail } from '../model/vendor';
 import fetch from 'node-fetch';
 import { checkExistEmail, createLocalCustomer, findOrCreateCustomer } from '../model/customer';

@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { convertName } from '../utils/utlis';
+import { convertName } from '../utils/utils';
 import data from './data';
 
 const productList = data;
@@ -40,7 +40,12 @@ export const getPageProduct = async (req: Request, res: Response, next: NextFunc
 };
 
 export const getProductByName = async (req: Request, res: Response, next: NextFunction) => {
-  return res.json({ message: 'hello' });
+  const { productName } = req.params;
+  const infoProduct = productList.find(({ title }) => {
+    return title.toLowerCase().replace(/ /g, '-') === productName;
+  });
+  if (infoProduct) return res.status(200).json({ message: 'get success', status: 200, infoProduct });
+  return res.status(200).json({ message: "Don't have product", status: 400 });
 };
 
 export const getPage = async (req: Request, res: Response, next: NextFunction) => {

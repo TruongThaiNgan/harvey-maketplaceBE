@@ -17,6 +17,14 @@
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
   "editor.letterSpacing": 0.5,
+  "editor.suggest.preview": true,
+  "editor.bracketPairColorization.enabled": true,
+
+  // javascript and typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
 
   // Window
   "window.zoomLevel": -1,
@@ -27,7 +35,6 @@
 
   // Explorer
   "explorer.compactFolders": false,
-  "explorer.autoReveal": false,
   "breadcrumbs.enabled": false,
 
   // Zen mode
