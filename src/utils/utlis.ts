@@ -44,3 +44,20 @@ export const createAccessToken = (id: string, time: number = 120 * 60) => {
   });
   return accessToken;
 };
+
+export const convertName = (name: string) => {
+  switch (name) {
+    case 'camerasPhotos':
+      return 'CAMERAS & PHOTOS';
+    case 'mobilesTablets':
+      return 'MOBILES & TABLETS';
+    case 'tvAudio':
+      return "TV'S & AUDIO";
+    case 'consoleGame':
+      return 'CONSOLES & GAMES';
+    case 'toolsStorage':
+      return 'TOOLS & STORAGE';
+    default:
+      return name.toUpperCase();
+  }
+};

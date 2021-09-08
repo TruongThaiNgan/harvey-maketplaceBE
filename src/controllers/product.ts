@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import { convertName } from '../utils/utlis';
 import data from './data';
 
 const productList = data;
@@ -6,7 +7,7 @@ const latest = [2, 4, 15, 22, 49, 98, 86, 23, 92, 94, 91, 89];
 const like = [110, 81, 58];
 const related = [13, 35, 37, 83, 5];
 
-const trendingList = [2, 4, 15, 22, 49, 98, 86, 23];
+const trendingList = [1, 4, 5, 8, 10, 12, 13, 16];
 const lastChanceList = [49, 98, 86, 23];
 const bestSellerList = [2, 4, 49, 15, 22, 98, 86];
 const hotDealList = [22, 23, 92, 91, 89, 88];
@@ -42,16 +43,22 @@ export const getProductByName = async (req: Request, res: Response, next: NextFu
   return res.json({ message: 'hello' });
 };
 
-export const getPageAccessories = async (req: Request, res: Response, next: NextFunction) => {
-  const numberProduct = accessories.length;
+export const getPage = async (req: Request, res: Response, next: NextFunction) => {
   const { page, limit } = req.query;
-  console.log(page, limit);
+
   if (!page || !limit) return res.json({ message: 'please provide page and limit', status: 400 });
+
+  let nameCategory = convertName(req.url.split('/')[1].split('?')[0]);
+
+  const itemList = productList.filter((product) => {
+    return product.categories.includes(nameCategory);
+  });
+
+  const numberProduct = itemList.length;
   const start = (+page - 1) * +limit;
-  let end = +page * +limit;
-  if (end > numberProduct) end = accessories.length;
-  const list = accessories.map((id) => productList[id]).slice(start, end);
-  console.log(list);
+  let end = Math.min(+page * +limit, numberProduct);
+  let list = itemList.slice(start, end);
+
   return res.json({ message: 'get success', status: 200, productList: list, numberProduct });
 };
 

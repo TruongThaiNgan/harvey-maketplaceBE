@@ -21,12 +21,12 @@ app.use(cors({ origin: process.env.URL_CLIENT }));
 app.use(express.json()); // for parsing application/json
 
 app.post('/payment', async (req: Request, res: Response, next: NextFunction) => {
-  const { id } = req.body;
+  const { id, amount, description } = req.body;
   try {
     const payment = await stripe.paymentIntents.create({
-      amount: 1000,
+      amount: amount * 100,
       currency: 'USD',
-      description: 'test backend',
+      description: description,
       payment_method: id,
       confirm: true,
     });
