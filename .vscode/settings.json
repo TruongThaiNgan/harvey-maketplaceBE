@@ -4,7 +4,7 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode", // set default formatter
-  "editor.fontSize": 20,
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace,\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
   "editor.formatOnPaste": true,

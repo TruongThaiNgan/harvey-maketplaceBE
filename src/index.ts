@@ -19,7 +19,40 @@ dotenv.config();
 const app = express();
 app.use(cors({ origin: process.env.URL_CLIENT }));
 app.use(express.json()); // for parsing application/json
+const endpointSecret = 'whsec_cEhU1REg855Uj1jqyrTVvfJatMu1vXlF';
 
+app.post('/webhook', express.raw({ type: 'application/json' }), (request, response) => {
+  const sig = request.headers['stripe-signature'] as string;
+
+  let event;
+
+  try {
+    event = stripe.webhooks.constructEvent(request.body, sig, endpointSecret);
+  } catch (err: any) {
+    response.status(400).send(`Webhook Error: ${err.message}`);
+    return;
+  }
+  console.log(event.data);
+  switch (event.type) {
+    case 'payment_intent.succeeded':
+      const paymentIntent = event.data.object;
+      console.log('PaymentIntent was successful!');
+      break;
+    case 'payment_method.attached':
+      const paymentMethod = event.data.object;
+      console.log('PaymentMethod was attached to a Customer!');
+      break;
+    // ... handle other event types
+    default:
+      console.log(`Unhandled event type ${event.type}`);
+  }
+
+  // Handle the event
+  console.log(`Unhandled event type ${event.type}`);
+
+  // Return a 200 response to acknowledge receipt of the event
+  response.send();
+});
 app.post('/payment', async (req: Request, res: Response, next: NextFunction) => {
   const { id, amount, description } = req.body;
   try {
@@ -30,7 +63,7 @@ app.post('/payment', async (req: Request, res: Response, next: NextFunction) => 
       payment_method: id,
       confirm: true,
     });
-    console.log(payment);
+    console.log(payment.charges.data);
 
     if (payment.status === 'succeeded')
       return res.status(200).json({
@@ -58,6 +91,8 @@ app.get('/check/:id', async (req, res) => {
     const id = req.params.id;
     console.log(id);
     const paymentIntent = await stripe.paymentIntents.retrieve(id);
+    const charges = paymentIntent.charges.data;
+    console.log('🚀 ~ file: index.ts ~ line 91 ~ app.get ~ charges', charges);
     if (paymentIntent?.status === 'succeeded') {
       return res.json({
         status: 200,
