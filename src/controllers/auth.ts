@@ -1,9 +1,8 @@
-import jwt from 'jsonwebtoken';
-import { NextFunction, Request, Response } from 'express';
-import { checkPassword, createAccessToken } from '../utils/utils';
-import { createVendor, findIDByEmail } from '../model/vendor';
 import fetch from 'node-fetch';
-import { checkExistEmail, createLocalCustomer, findOrCreateCustomer } from '../model/customer';
+import { NextFunction, Request, Response } from 'express';
+import { createLocalCustomer, findOrCreateCustomer } from '../model/customer';
+import { createVendor, findIDByEmail } from '../model/vendor';
+import { checkPassword, createAccessToken } from '../utils/utils';
 
 type err = {
   message: string;
