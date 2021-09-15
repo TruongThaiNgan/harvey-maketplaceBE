@@ -10,6 +10,8 @@ import {
   postInfo,
   postSetupIntent,
   postInvoice,
+  getInvoice,
+  postCharge,
 } from '../controllers/payment';
 import { checkAuth } from '../middlewares/checkauth';
 const router = Router();
@@ -26,5 +28,8 @@ router.post('/info', checkAuth, postInfo);
 router.post('/setup-intent', checkAuth, postSetupIntent);
 
 router.post('/invoice', checkAuth, postInvoice);
+router.get('/invoice', checkAuth, getInvoice);
+
+router.post('/charge', checkAuth, postCharge);
 
 export default router;

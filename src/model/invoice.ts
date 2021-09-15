@@ -41,3 +41,21 @@ export const createInvoice = async (newInvoice: InvoiceInfo) => {
     throw error;
   }
 };
+
+export const findAllInvoice = async () => {
+  try {
+    const invoice = await Invoice.find({});
+    return invoice;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const findInvoice = async (id: string) => {
+  try {
+    const invoice = await Invoice.findById(id).lean();
+    return invoice;
+  } catch (error) {
+    console.log(error);
+  }
+};

@@ -4,7 +4,7 @@ import express from 'express';
 import { sendMailPaymentSuccess } from '../utils/sendMail';
 import { AuthRequest } from '../middlewares/checkauth';
 import { addPaymentID, findInfo, findListPayment, getCustomerID, PaymentMethod, updateInfo } from '../model/customer';
-import { createInvoice } from '../model/invoice';
+import { createInvoice, findAllInvoice, findInvoice } from '../model/invoice';
 export const stripe = new Stripe(
   'sk_test_51JUBi4BehStfnEoed7aq4TazuUSYGiBEEzCo0VxE4jO0kEEBAs5vY5D5PCeaehL616ppcWUeIo3qN9cOIp92uMYt00JCbB6Lcq',
   {
@@ -248,6 +248,43 @@ export const postInvoice = async (req: Request, res: Response, next: NextFunctio
     });
     return res.status(200).json({
       message: 'create invoice',
+      status: 200,
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getInvoice = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const invoice = await findAllInvoice();
+    console.log(invoice);
+    return res.status(200).json({
+      message: 'get invoice success',
+      status: 200,
+      invoice,
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const postCharge = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { id } = req.body;
+    const invoice = await findInvoice(id);
+    const paymentIntent = await stripe.paymentIntents.create({
+      amount: 1000,
+      currency: 'USD',
+      customer: invoice?.customerID,
+      payment_method: invoice?.paymentMethodID,
+      description: invoice?.description,
+      off_session: true,
+      confirm: true,
+    });
+
+    return res.status(200).json({
+      message: ' charge success',
       status: 200,
     });
   } catch (error) {
