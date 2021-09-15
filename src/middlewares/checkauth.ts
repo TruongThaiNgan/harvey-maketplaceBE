@@ -7,8 +7,10 @@ interface IDecodedToken {
   role: string;
 }
 
-interface AuthRequest extends Request {
-  userData?: object;
+export interface AuthRequest extends Request {
+  userData?: {
+    id: string;
+  };
 }
 
 export const checkAuth = (req: Request, res: Response, next: NextFunction) => {

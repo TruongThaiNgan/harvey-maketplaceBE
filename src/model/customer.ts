@@ -1,16 +1,41 @@
 import { LeanDocument, model, Schema, Document } from 'mongoose';
+import { stripe } from '../controllers/payment';
 import httpError from '../utils/httpError';
 import { createAccessToken, hashPassword } from '../utils/utils';
 import { checkEmailVendorExist } from './vendor';
 
+export type CustomerInfo = {
+  firstName: string;
+  lastName: string;
+  companyName: string;
+  country: string;
+  streetAddress: string;
+  postCode: string;
+  city: string;
+  phone: string;
+  email: string;
+};
+
 interface CustomerLocalDocument extends Document {
   email: string;
   password: string;
+  customerID: string;
+  listPaymentID: string[];
   type: 'local';
+  info: CustomerInfo;
 }
+
+export type PaymentMethod = {
+  fingerprint: string;
+  paymentID: string;
+};
+
 interface CustomerLocal {
   email: string;
   password: string;
+  customerID: string;
+  listPaymentID: PaymentMethod[];
+  info: CustomerInfo;
   type: 'local';
 }
 interface CustomerFacebookDocument extends Document {
@@ -21,7 +46,7 @@ interface CustomerFacebook {
   email: string;
   type: 'facebook';
 }
-const CustomerSchema = new Schema<CustomerLocal | CustomerFacebook>({
+const CustomerSchema = new Schema<CustomerLocal>({
   email: {
     type: String,
     required: true,
@@ -29,18 +54,28 @@ const CustomerSchema = new Schema<CustomerLocal | CustomerFacebook>({
   password: {
     type: String,
   },
+  customerID: {
+    type: String,
+    required: true,
+  },
+  listPaymentID: {
+    type: [Object],
+  },
+  info: {
+    type: Object,
+    default: undefined,
+  },
   type: {
     type: String,
     required: true,
   },
 });
 
-const Customer = model<CustomerLocal | CustomerFacebook>('Customer', CustomerSchema);
+const Customer = model<CustomerLocal>('Customer', CustomerSchema);
 
 export const checkExistEmail = async (email: string) => {
   const hasExistEmailCustomer = await Customer.findOne({ email });
-  const hasExistEmailVendor = await checkEmailVendorExist(email);
-  return !!hasExistEmailCustomer || !!hasExistEmailVendor;
+  return !!hasExistEmailCustomer;
 };
 
 export const createLocalCustomer = async (newCustomer: CustomerLocal) => {
@@ -51,7 +86,13 @@ export const createLocalCustomer = async (newCustomer: CustomerLocal) => {
 
     const hashedPassword = await hashPassword(password);
 
-    const customer = new Customer({ ...newCustomer, type: 'local', password: hashedPassword });
+    const stripeCustomer = await stripe.customers.create({ email });
+    const customer = new Customer({
+      ...newCustomer,
+      type: 'local',
+      password: hashedPassword,
+      customerID: stripeCustomer.id,
+    });
     await customer.save();
 
     const accessToken = createAccessToken(customer.id);
@@ -127,5 +168,92 @@ export const findOrCreateCustomer = async (email: string) => {
     };
   } catch (error) {
     throw error;
+  }
+};
+
+export const findListPayment = async (id: string) => {
+  try {
+    let customer = await Customer.findById(id).lean();
+    if (!customer) return [];
+    const listPaymentID = customer.listPaymentID.map(({ paymentID }) => {
+      return paymentID;
+    });
+    const list = await Promise.all(
+      listPaymentID.map(async (id) => {
+        const numberCard = await stripe.paymentMethods.retrieve(id);
+        return {
+          paymentMethodID: id,
+          last4: numberCard.card?.last4,
+        };
+      }),
+    );
+    return list;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const addPaymentID = async (id: string, paymentMethod: PaymentMethod) => {
+  try {
+    if (!id || !paymentMethod) return false;
+    let preCustomer = await Customer.findById(id).lean();
+    const listPaymentMethod = preCustomer?.listPaymentID as PaymentMethod[];
+    const { paymentID, fingerprint } = paymentMethod;
+    const hasExist = listPaymentMethod.some(({ fingerprint, paymentID }) => {
+      return paymentMethod.fingerprint === fingerprint;
+    });
+    console.log(hasExist);
+    if (hasExist) return false;
+
+    let customer = await Customer.findByIdAndUpdate(
+      id,
+      {
+        $push: {
+          listPaymentID: paymentMethod,
+        },
+      },
+      { new: true },
+    );
+    if (!customer) return false;
+    return customer.listPaymentID;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getCustomerID = async (id: string) => {
+  try {
+    let customer = await Customer.findById(id).lean();
+    if (!customer) return '';
+    return customer.customerID;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const findInfo = async (id: string): Promise<CustomerInfo | undefined> => {
+  try {
+    let customer = await Customer.findById(id).lean();
+    if (!customer) return undefined;
+    return customer.info;
+  } catch (error) {
+    console.log(error);
+  }
+};
+export const updateInfo = async (id: string, info: CustomerInfo) => {
+  try {
+    let customer = await Customer.findByIdAndUpdate(
+      id,
+      {
+        $set: {
+          info: info,
+        },
+      },
+      { new: true },
+    );
+    if (!customer) return {};
+    return customer.info;
+  } catch (error) {
+    console.log(error);
   }
 };

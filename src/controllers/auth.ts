@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { NextFunction, Request, Response } from 'express';
-import { createLocalCustomer, findOrCreateCustomer } from '../model/customer';
-import { createVendor, findIDByEmail } from '../model/vendor';
+import { createLocalCustomer, findIDByEmail, findOrCreateCustomer } from '../model/customer';
+import { createVendor } from '../model/vendor';
 import { checkPassword, createAccessToken } from '../utils/utils';
 
 type err = {

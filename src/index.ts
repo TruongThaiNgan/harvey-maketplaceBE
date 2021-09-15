@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({ origin: process.env.URL_CLIENT }));
 app.use((req: express.Request, res: express.Response, next: express.NextFunction): void => {
   if (req.originalUrl === '/payment/webhook') {
-    next();
+    express.raw({ type: 'application/json' })(req, res, next);
   } else {
     express.json()(req, res, next);
   }
