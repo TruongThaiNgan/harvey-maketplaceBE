@@ -28,8 +28,8 @@ router.post('/info', checkAuth, postInfo);
 router.post('/setup-intent', checkAuth, postSetupIntent);
 
 router.post('/invoice', checkAuth, postInvoice);
-router.get('/invoice', checkAuth, getInvoice);
+router.get('/invoice', getInvoice);
 
-router.post('/charge', checkAuth, postCharge);
+router.post('/charge', postCharge);
 
 export default router;

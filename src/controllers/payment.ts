@@ -136,26 +136,17 @@ export const addPaymentMethod = async (req: Request, res: Response, next: NextFu
       });
 
     const { paymentID } = req.body;
+    if (!paymentID)
+      return res.status(200).json({
+        message: 'please provide payment ID',
+        status: 400,
+      });
 
     const customerID = await getCustomerID(id);
     if (!customerID)
       return res.status(200).json({
         message: 'can not find customer id',
         status: 400,
-      });
-    const info = await findInfo(id);
-    if (info)
-      await stripe.paymentMethods.update(paymentID, {
-        billing_details: {
-          address: {
-            city: info.city,
-            country: info.country,
-            postal_code: info.postCode,
-          },
-          name: info.firstName + info.lastName,
-          email: info.email,
-          phone: info.phone,
-        },
       });
 
     const paymentMethod = await stripe.paymentMethods.retrieve(paymentID);
@@ -173,12 +164,27 @@ export const addPaymentMethod = async (req: Request, res: Response, next: NextFu
     const attach = await stripe.paymentMethods.attach(paymentID, {
       customer: customerID,
     });
+    const info = await findInfo(id);
+    if (info)
+      await stripe.paymentMethods.update(paymentID, {
+        billing_details: {
+          address: {
+            city: info.city,
+            country: info.country,
+            postal_code: info.postCode,
+          },
+          name: info.firstName + info.lastName,
+          email: info.email,
+          phone: info.phone,
+        },
+      });
 
     return res.status(200).json({
       message: 'add payment method success',
       status: 200,
     });
   } catch (error) {
+    console.log(error);
     return res.status(500).json({ message: 'error from server' });
   }
 };
@@ -240,7 +246,7 @@ export const postInvoice = async (req: Request, res: Response, next: NextFunctio
     const customerID = await getCustomerID(id);
     const { invoice } = req.body;
     console.log(invoice);
-    createInvoice({
+    createInvoice(id, {
       customerID: customerID!,
       paymentMethodID: invoice.paymentMethodID,
       amount: +invoice.amount,
@@ -272,6 +278,7 @@ export const getInvoice = async (req: Request, res: Response, next: NextFunction
 export const postCharge = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { id } = req.body;
+    console.log(id);
     const invoice = await findInvoice(id);
     const paymentIntent = await stripe.paymentIntents.create({
       amount: 1000,
@@ -284,10 +291,17 @@ export const postCharge = async (req: Request, res: Response, next: NextFunction
     });
 
     return res.status(200).json({
-      message: ' charge success',
+      message: 'charge success',
       status: 200,
     });
   } catch (error) {
     console.log(error);
   }
+};
+
+export const getCharge = async (req: Request, res: Response, next: NextFunction) => {
+  return res.status(500).json({
+    message: 'ok',
+    status: 400,
+  });
 };

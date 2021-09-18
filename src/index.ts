@@ -11,7 +11,7 @@ import { checkAuth } from './middlewares/checkauth';
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: process.env.URL_CLIENT }));
+app.use(cors());
 app.use((req: express.Request, res: express.Response, next: express.NextFunction): void => {
   if (req.originalUrl === '/payment/webhook') {
     express.raw({ type: 'application/json' })(req, res, next);

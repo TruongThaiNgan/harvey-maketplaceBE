@@ -2,6 +2,7 @@ import { LeanDocument, model, Schema, Document } from 'mongoose';
 import { stripe } from '../controllers/payment';
 import httpError from '../utils/httpError';
 import { createAccessToken, hashPassword } from '../utils/utils';
+import { InvoiceInfo } from './invoice';
 import { checkEmailVendorExist } from './vendor';
 
 export type CustomerInfo = {
@@ -16,13 +17,14 @@ export type CustomerInfo = {
   email: string;
 };
 
-interface CustomerLocalDocument extends Document {
+export interface CustomerLocalDocument extends Document {
   email: string;
   password: string;
   customerID: string;
   listPaymentID: string[];
   type: 'local';
   info: CustomerInfo;
+  invoices: InvoiceInfo[];
 }
 
 export type PaymentMethod = {
@@ -30,7 +32,7 @@ export type PaymentMethod = {
   paymentID: string;
 };
 
-interface CustomerLocal {
+interface CustomerLocal extends Document {
   email: string;
   password: string;
   customerID: string;
@@ -69,6 +71,7 @@ const CustomerSchema = new Schema<CustomerLocal>({
     type: String,
     required: true,
   },
+  invoices: [{ type: Schema.Types.ObjectId, default: [], ref: 'Invoice' }],
 });
 
 const Customer = model<CustomerLocal>('Customer', CustomerSchema);
@@ -253,6 +256,23 @@ export const updateInfo = async (id: string, info: CustomerInfo) => {
     );
     if (!customer) return {};
     return customer.info;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const addInvoice = async (id: string, invoice: string) => {
+  try {
+    let customer = await Customer.findByIdAndUpdate(
+      id,
+      {
+        $push: {
+          invoices: invoice,
+        },
+      },
+      { new: true },
+    );
+    return customer;
   } catch (error) {
     console.log(error);
   }

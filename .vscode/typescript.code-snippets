@@ -6,6 +6,12 @@
     "body": ["${1|const,let|} ${2:variableName} = $3"],
     "description": "Declare Assign "
   },
+  "Export Declare Assign ": {
+    "prefix": "eda",
+    "scope": "typescript,typescriptreact",
+    "body": ["export ${1|const,let|} ${2:variableName} = $3"],
+    "description": "Export Declare Assign "
+  },
   "Declare Assign Const ": {
     "prefix": "dac",
     "scope": "typescript,typescriptreact",

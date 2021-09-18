@@ -1,0 +1,20 @@
+{
+  "Middleware Function": {
+    "prefix": "mwf",
+    "scope": "typescript",
+    "body": ["async (req: Request, res: Response, next: NextFunction) => {", "\t$1", "};"],
+    "description": "Middleware Function"
+  },
+  "Import Middleware Function": {
+    "prefix": "imwf",
+    "scope": "typescript",
+    "body": ["import { NextFunction, Request, Response } from 'express';"],
+    "description": "Import Middleware Function"
+  },
+  "Return Response": {
+    "prefix": "rres",
+    "scope": "typescript",
+    "body": ["return res.status(${1:200}).json({", "\tmessage: '$2',", "\tstatus: $3,", "});"],
+    "description": "Return Response"
+  }
+}
