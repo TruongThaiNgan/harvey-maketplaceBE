@@ -1,10 +1,10 @@
 import Stripe from 'stripe';
 import { NextFunction, Request, Response } from 'express';
 import express from 'express';
-import { sendMailPaymentSuccess } from '../utils/sendMail';
+import { sendMailPaymentFail, sendMailPaymentSuccess } from '../utils/sendMail';
 import { AuthRequest } from '../middlewares/checkauth';
 import { addPaymentID, findInfo, findListPayment, getCustomerID, PaymentMethod, updateInfo } from '../model/customer';
-import { createInvoice, findAllInvoice, findInvoice } from '../model/invoice';
+import { createInvoice, deleteInvoice, findAllInvoice, findInvoice } from '../model/invoice';
 export const stripe = new Stripe(
   'sk_test_51JUBi4BehStfnEoed7aq4TazuUSYGiBEEzCo0VxE4jO0kEEBAs5vY5D5PCeaehL616ppcWUeIo3qN9cOIp92uMYt00JCbB6Lcq',
   {
@@ -31,7 +31,6 @@ export const webhook = async (req: Request, res: Response, next: NextFunction) =
       const customer = await stripe.customers.retrieve(customerId);
       const { email } = customer as Stripe.Customer;
       sendMailPaymentSuccess(email);
-      console.log('PaymentIntent was successful!');
       break;
 
     case 'payment_method.attached':
@@ -40,7 +39,12 @@ export const webhook = async (req: Request, res: Response, next: NextFunction) =
       break;
 
     case 'payment_method.payment_failed':
-      console.log('payment failed');
+      const paymentIntentFail = event.data.object as Stripe.PaymentIntent;
+      const customerIdFail = paymentIntentFail?.customer as string;
+      if (!customerIdFail) break;
+      const customerFail = await stripe.customers.retrieve(customerIdFail);
+      const { email: emailFail } = customerFail as Stripe.Customer;
+      sendMailPaymentFail(emailFail);
       break;
 
     default:
@@ -278,10 +282,14 @@ export const getInvoice = async (req: Request, res: Response, next: NextFunction
 export const postCharge = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { id } = req.body;
-    console.log(id);
     const invoice = await findInvoice(id);
+    if (!invoice)
+      return res.status(200).json({
+        message: 'cant find invoice',
+        status: 400,
+      });
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: 1000,
+      amount: +invoice?.amount,
       currency: 'USD',
       customer: invoice?.customerID,
       payment_method: invoice?.paymentMethodID,
@@ -289,6 +297,7 @@ export const postCharge = async (req: Request, res: Response, next: NextFunction
       off_session: true,
       confirm: true,
     });
+    await deleteInvoice(id);
 
     return res.status(200).json({
       message: 'charge success',

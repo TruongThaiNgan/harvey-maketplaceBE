@@ -1,8 +1,10 @@
 import fetch from 'node-fetch';
 import { NextFunction, Request, Response } from 'express';
-import { createLocalCustomer, findIDByEmail, findOrCreateCustomer } from '../model/customer';
+import { createLocalCustomer, findIDByEmail, findOrCreateCustomer, updatePassword } from '../model/customer';
 import { createVendor } from '../model/vendor';
-import { checkPassword, createAccessToken } from '../utils/utils';
+import { checkPassword, createAccessToken, hashPassword } from '../utils/utils';
+import { sendLinkResetPassword } from '../utils/sendMail';
+import { AuthRequest } from '../middlewares/checkauth';
 
 type err = {
   message: string;
@@ -83,5 +85,45 @@ export const authFacebook = async (req: Request, res: Response, next: NextFuncti
     return res.json({ message: 'log in success', status: '200', ...idAndToken });
   } catch (error) {
     next(error);
+  }
+};
+
+export const sendEmailWithAccessToken = async (req: Request, res: Response, next: NextFunction) => {
+  const { email } = req.body;
+  const id = await findIDByEmail(email);
+  const accessToken = createAccessToken(id);
+  await sendLinkResetPassword(email, accessToken);
+  console.log('🚀 ~ file: auth.ts ~ line 91 ~ sendEmailWithAccessToken ~ email', email);
+  return res.status(200).json({
+    message: 'create success',
+    status: 200,
+  });
+};
+
+export const putPassword = async (req: Request, res: Response, next: NextFunction) => {
+  const { password } = req.body;
+  if (!password)
+    return res.status(200).json({
+      message: 'please provide password',
+      status: 400,
+    });
+  const id = (req as AuthRequest)?.userData?.id;
+  if (!id)
+    return res.status(200).json({
+      message: 'can not find id',
+      status: 400,
+    });
+  try {
+    const hashedPassword = await hashPassword(password);
+    await updatePassword(id, hashedPassword);
+    return res.status(200).json({
+      message: 'update success',
+      status: 200,
+    });
+  } catch (error: any) {
+    return res.status(200).json({
+      message: error?.message,
+      status: 500,
+    });
   }
 };

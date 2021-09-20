@@ -77,8 +77,12 @@ const CustomerSchema = new Schema<CustomerLocal>({
 const Customer = model<CustomerLocal>('Customer', CustomerSchema);
 
 export const checkExistEmail = async (email: string) => {
-  const hasExistEmailCustomer = await Customer.findOne({ email });
-  return !!hasExistEmailCustomer;
+  try {
+    const hasExistEmailCustomer = await Customer.findOne({ email });
+    return !!hasExistEmailCustomer;
+  } catch (error) {
+    throw error;
+  }
 };
 
 export const createLocalCustomer = async (newCustomer: CustomerLocal) => {
@@ -192,7 +196,7 @@ export const findListPayment = async (id: string) => {
     );
     return list;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 
@@ -220,7 +224,7 @@ export const addPaymentID = async (id: string, paymentMethod: PaymentMethod) => 
     if (!customer) return false;
     return customer.listPaymentID;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 
@@ -230,7 +234,7 @@ export const getCustomerID = async (id: string) => {
     if (!customer) return '';
     return customer.customerID;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 
@@ -240,7 +244,7 @@ export const findInfo = async (id: string): Promise<CustomerInfo | undefined> =>
     if (!customer) return undefined;
     return customer.info;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 export const updateInfo = async (id: string, info: CustomerInfo) => {
@@ -257,7 +261,7 @@ export const updateInfo = async (id: string, info: CustomerInfo) => {
     if (!customer) return {};
     return customer.info;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 
@@ -274,6 +278,23 @@ export const addInvoice = async (id: string, invoice: string) => {
     );
     return customer;
   } catch (error) {
-    console.log(error);
+    throw error;
+  }
+};
+
+export const updatePassword = async (id: string, newPassword: string) => {
+  try {
+    const customer = await Customer.findByIdAndUpdate(
+      id,
+      {
+        $set: {
+          password: newPassword,
+        },
+      },
+      { new: true },
+    );
+    return customer;
+  } catch (error) {
+    throw error;
   }
 };

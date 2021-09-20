@@ -17,4 +17,5 @@ router.get('/toolsStorage', getPage);
 router.get('/watches', getPage);
 router.get('/latest', getPage);
 
+
 export default router;

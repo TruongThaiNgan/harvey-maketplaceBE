@@ -68,3 +68,12 @@ export const findInvoice = async (id: string) => {
     console.log(error);
   }
 };
+
+export const deleteInvoice = async (id: string) => {
+  try {
+    const invoice = await Invoice.findByIdAndDelete(id);
+    return invoice;
+  } catch (error) {
+    console.log(error);
+  }
+};
