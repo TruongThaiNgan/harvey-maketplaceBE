@@ -21,7 +21,7 @@ app.use((req: express.Request, res: express.Response, next: express.NextFunction
     express.json()(req, res, next);
   }
 });
-app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use('/static', express.static(__dirname + '/public/'));
 app.use('/images', imageRoute);
 
 app.use('/payment', paymentRoute);
