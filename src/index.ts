@@ -6,7 +6,7 @@ import vendorRoute from './routes/vendorRoute';
 import authRoute from './routes/authRoute';
 import customerRoute from './routes/customerRoute';
 import paymentRoute from './routes/paymentRoute';
-import imageRoute from './routes/imageRoute';
+import fashionRoute from './routes/fashionShop';
 import publicRoute from './routes/publicRoute';
 import { checkAuth } from './middlewares/checkauth';
 import path from 'path';
@@ -21,8 +21,8 @@ app.use((req: express.Request, res: express.Response, next: express.NextFunction
     express.json()(req, res, next);
   }
 });
-app.use('/static', express.static(__dirname + '/public/'));
-app.use('/images', imageRoute);
+
+app.use('/fashion', fashionRoute);
 
 app.use('/payment', paymentRoute);
 app.use('/auth', authRoute);
