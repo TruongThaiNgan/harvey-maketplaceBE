@@ -6,8 +6,10 @@ import vendorRoute from './routes/vendorRoute';
 import authRoute from './routes/authRoute';
 import customerRoute from './routes/customerRoute';
 import paymentRoute from './routes/paymentRoute';
+import imageRoute from './routes/imageRoute';
 import publicRoute from './routes/publicRoute';
 import { checkAuth } from './middlewares/checkauth';
+import path from 'path';
 dotenv.config();
 
 const app = express();
@@ -19,6 +21,8 @@ app.use((req: express.Request, res: express.Response, next: express.NextFunction
     express.json()(req, res, next);
   }
 });
+app.use('/static', express.static(path.join(__dirname, 'public')));
+app.use('/images', imageRoute);
 
 app.use('/payment', paymentRoute);
 app.use('/auth', authRoute);
