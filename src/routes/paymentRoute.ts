@@ -15,7 +15,7 @@ import {
 } from '../controllers/payment';
 import { checkAuth } from '../middlewares/checkauth';
 const router = Router();
-
+router.get('/', (req, res)=>res.jsonp({mess: "hello"}));
 router.get('/check/:id', check);
 router.post('/webhook', webhook);
 router.post('/card-payment', cardPayment);

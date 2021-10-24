@@ -6,12 +6,12 @@ import { AuthRequest } from '../middlewares/checkauth';
 import { addPaymentID, findInfo, findListPayment, getCustomerID, PaymentMethod, updateInfo } from '../model/customer';
 import { createInvoice, deleteInvoice, findAllInvoice, findInvoice } from '../model/invoice';
 export const stripe = new Stripe(
-  'sk_test_51JUBi4BehStfnEoed7aq4TazuUSYGiBEEzCo0VxE4jO0kEEBAs5vY5D5PCeaehL616ppcWUeIo3qN9cOIp92uMYt00JCbB6Lcq',
+  'sk_test_51JnOVRBC03WUFDozRQA4bxiZdUj8jJjNx56cZePgMYYMRwzuv3WD5oQNZSwcqAvyquwMZiEh8iWIIEqodT2BT014000SjqHgHd',
   {
     apiVersion: '2020-08-27',
   },
 );
-const endpointSecret = 'whsec_cEhU1REg855Uj1jqyrTVvfJatMu1vXlF';
+const endpointSecret = 'whsec_Eec2VBwRMkHFm9EdWEQJhReIie9goWuN';
 
 export const webhook = async (req: Request, res: Response, next: NextFunction) => {
   const sig = req.headers['stripe-signature'] as string;
@@ -65,14 +65,13 @@ export const cardPayment = async (req: Request, res: Response, next: NextFunctio
       confirm: true,
       payment_method_types: ['card'],
     });
-
-    if (paymentIntent.status === 'succeeded')
+    if (paymentIntent.status === 'succeeded'){    
       return res.status(200).json({
         status: 200,
         message: 'payment successful',
         id: paymentIntent.id,
       });
-
+    }
     if (paymentIntent.status === 'requires_action') {
       return res.status(200).json({
         status: 200,

@@ -27,7 +27,7 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
 
   // Window
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
 
   // Auto save
   "files.autoSave": "afterDelay",
